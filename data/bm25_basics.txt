@@ -1,0 +1,5 @@
+Title: BM25 Basics
+- BM25 ranks documents by term frequency, inverse document frequency, and document length normalization.
+- Tokenization quality matters: lowercase, remove stopwords, and keep alphanumerics for best results.
+- BM25 excels when exact terms are important (e.g., error codes, names, API keys).
+- Combine BM25 with dense retrieval to cover both exact and semantic matches.

@@ -1,0 +1,8 @@
+
+Sample questions to try
+- What are the pros of using IVF or HNSW in FAISS compared to IndexFlatIP? Expect citations from vector_databases.txt or faiss_tuning.txt.
+- How does reciprocal rank fusion help in hybrid retrieval? Expect citations from hybrid_retrieval.txt.
+- Which metrics should I track to evaluate a RAG system? Expect citations from evaluation.txt.
+- When should BM25 be preferred over dense embeddings? Expect citations from bm25_basics.txt.
+- How do I ensure answers are grounded with citations? Expect citations from citations_guidelines.txt.
+- Why normalize embeddings when using inner product search? Expect citations from vector_databases.txt or faiss_tuning.txt.

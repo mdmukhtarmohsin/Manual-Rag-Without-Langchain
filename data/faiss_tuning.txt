@@ -1,0 +1,5 @@
+Title: FAISS Tuning Notes
+- Normalize embeddings for cosine-like inner product search.
+- For large corpora: IVF1024,HNSW32 can be a good trade-off; train IVF on a sample of vectors.
+- Use add_with_ids to keep stable mappings between vectors and your metadata.
+- For updates: keep an append-only log of new vectors and rebuild IVF/HNSW periodically.

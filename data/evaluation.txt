@@ -1,0 +1,5 @@
+Title: Evaluating RAG Systems
+- Measure retrieval quality: recall@k, precision@k, and NDCG for ranking quality.
+- For answer quality, use exact match, F1, or ROUGE-L depending on the task.
+- Add a “no-answer” option: if context lacks evidence, the system should abstain.
+- Reproducible evaluation needs a fixed dataset of questions and ground-truth citations.

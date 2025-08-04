@@ -1,0 +1,6 @@
+Title: Hybrid Retrieval Tips
+- Dense search uses embeddings to match meaning; sparse search uses keywords and term statistics (e.g., BM25).
+- Score normalization helps merge scores from different sources. Min-max or z-score are common choices.
+- Reciprocal Rank Fusion (RRF) is robust: it rewards documents that rank well in any list.
+- Alpha controls the balance: higher alpha favors dense similarity; lower alpha favors keyword matches.
+- Overlapping chunks help reduce boundary issues; 500 tokens with 100 overlap is a reasonable starting point.

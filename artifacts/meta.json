@@ -1,1 +1,1 @@
-[{"source_path": "data/vector_databases.txt", "chunk_id": 0}, {"source_path": "data/vector_databases.txt", "chunk_id": 1}, {"source_path": "data/vector_databases.txt", "chunk_id": 2}]
+[{"source_path": "data/citations_guidelines.txt", "chunk_id": 0}, {"source_path": "data/bm25_basics.txt", "chunk_id": 0}, {"source_path": "data/faiss_tuning.txt", "chunk_id": 0}, {"source_path": "data/evaluation.txt", "chunk_id": 0}, {"source_path": "data/hybrid_retrieval.txt", "chunk_id": 0}, {"source_path": "data/vector_databases.txt", "chunk_id": 0}]

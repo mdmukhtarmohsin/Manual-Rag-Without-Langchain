@@ -1,0 +1,5 @@
+Title: Grounded Answering and Citations
+- Instruct the model: “Use ONLY the provided context; if unsure, say you don't know.”
+- Require bracketed citations like [1], [2] tied to retrieved chunks.
+- Short answers with precise quotes are often better than long, speculative text.
+- Post-check the answer: verify each cited chunk actually supports the claim.
